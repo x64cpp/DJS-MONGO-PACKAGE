@@ -45,7 +45,7 @@ BOT_ID=
 
 #### Updating Packages:
 
-To update packages to their latest versions, use: ```npm update```.
+To update packages to their latest versions, use: `npm update`.
 
 #### ANSI Escape Codes for Color Styling:
 
