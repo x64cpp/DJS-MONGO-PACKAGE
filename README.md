@@ -23,6 +23,25 @@ Before using these code snippets, make sure to:
 - Install [Node.js](https://nodejs.org/): Node.js is required for running JavaScript applications. Download and install Node.js from their official website.
 - Initiate a new project using npm: Run `npm init -y` in your desired directory to create a `package.json` file with default settings.
 - Install necessary packages: Run `npm install discord.js dotenv mongoose`.
+- Create a `.env` file: Create a `.env` file in your project directory before executing the code. Below is an example content for the `.env` file:
+
+```
+# Obtain your Discord bot token from the Discord Developer Portal
+# Visit https://discord.com/developers/applications and create a new application
+# Then navigate to the "Bot" tab to reveal and copy your bot token
+token=
+
+# MongoDB connection URL - Enter your MongoDB connection URL
+# https://www.mongodb.com
+MONGODBURL=
+
+#BOT ID RCLICK
+BOT_ID=
+
+# Other environment variables...
+# VARIABLE_NAME=VALUE
+```
+
 
 #### Updating Packages:
 
