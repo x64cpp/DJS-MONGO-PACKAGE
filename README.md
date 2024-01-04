@@ -63,7 +63,7 @@ The following ANSI escape codes can be used for coloring console messages:
   - Bold: `\x1b[1mHello, World!\x1b[0m`
   - Underline: `\x1b[4mHello, World!\x1b[0m`
 
-#### Configuration Note:
+#### Configuration:
 
 Ensure to include Discord bot token, bot ID, and MongoDB connection URL in the `.env` file. This practice avoids modifying the code directly and enhances security by keeping sensitive information separate.
 
